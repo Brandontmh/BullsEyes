@@ -367,7 +367,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b2.jpg");
+    background-image: url("img/banner/b3.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -397,6 +397,20 @@ body{
 #sm-banner .banner-box:hover button{
     background: #088178;
     border: 1px solid #088178;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b4.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 
