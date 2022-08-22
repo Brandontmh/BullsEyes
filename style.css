@@ -596,6 +596,8 @@ footer .copyright{
     text-align: center;
     flex-direction: column;
     padding: 14px;
+    
+   
 }
 
 #page-header h2,
@@ -686,9 +688,22 @@ footer .copyright{
 
 /* Blog Page */
 
-#page-header .blog-header{
-    background-image:url("img/blog/b1.jpg");
+.blog-header{
+    background-image: url(img/banner/b9.png);
     background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+.blog-header h2,
+.blog-header p{
+    color: black;
 }
 
 #blog{
@@ -700,6 +715,7 @@ footer .copyright{
     align-items: center;
     width: 100%;
     position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img {
@@ -753,6 +769,10 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+
+
+
 
 /* About Page */
 
@@ -935,6 +955,27 @@ footer .copyright{
     }
 
     #prodetails .single-pro-details{
+        width: 100%;
+    }
+
+    /* Blog Page */
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details{
         width: 100%;
     }
 }
