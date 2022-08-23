@@ -804,6 +804,22 @@ footer .copyright{
     padding-left: 40px;
 }
 
+#about-app{
+    text-align:center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 /* Cart Page */
 
 /* Media Query */
@@ -902,6 +918,16 @@ footer .copyright{
 
     #newsletter .form{
         width: 55%;
+    }
+
+    .about-header{
+        background-size: cover;
+        width: auto;
+        height: 40vh;
+    }
+
+    #about-app .video video{
+        width: 80%;
     }
 }
 
@@ -1006,4 +1032,34 @@ footer .copyright{
     #blog .blog-details{
         width: 100%;
     }
+
+    /* About Page */
+
+    .about-header{
+        width: auto;
+        height: auto;
+    }
+
+    .about-header h2,
+    .about-header p{
+    font-size: 20px;
+    }
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
+    
 }
