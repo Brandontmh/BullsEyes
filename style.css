@@ -92,6 +92,29 @@ body{
     color: #088178;
 }
 
+#header form{
+    width: 30%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+#header form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#header form i{
+    padding-left: 10px;
+}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -1057,6 +1080,10 @@ footer .copyright{
         padding:40px 20px;
     }
 
+    #header form{
+        width: 50%;
+    }
+
     #navbar{
         display: flex;
         flex-direction: column;
@@ -1178,6 +1205,11 @@ footer .copyright{
     #header{
         padding: 10px 30px;
     }
+
+    #header form i{
+        padding-left: 0px;
+    }
+
     h1{
         font-size: 38px;
     }
