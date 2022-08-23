@@ -774,7 +774,7 @@ footer .copyright{
 /* About Page */
 
 .about-header{
-    background-image: url(img/banner/b10.jpg);
+    background-image: url(img/banner/b10.png);
     width: 100%;
     height: 80vh;
     display: flex;
@@ -787,16 +787,21 @@ footer .copyright{
 .about-header h2,
 .about-header p{
     color: black;
+    font-size: 50px;
 }
 
-.about-head{
+#about-head{
     display: flex;
     align-items: center;
 }
 
-.about-head img{
+#about-head img{
     width: 50%;
     height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
 }
 
 /* Cart Page */
